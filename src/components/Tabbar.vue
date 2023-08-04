@@ -5,9 +5,9 @@
 </template>
 <script>
   import { h } from 'vue';
-  import { Home, Category, Find, Message, My } from '@nutui/icons-vue';
+  import { Home, Category, Find, StarFillN, My } from '@nutui/icons-vue';
   export default {
-    components: { Home, Category, Find, Message, My },
+    components: { Home, Category, Find, StarFillN, My },
     setup() {
       const List = [
         {
@@ -23,8 +23,8 @@
           icon: h(Find)
         },
         {
-          title: 'แชท',
-          icon: h(Message)
+          title: 'ชวนเพื่อน',
+          icon: h(StarFillN)
         },
         {
           title: 'ข้อมูล',
